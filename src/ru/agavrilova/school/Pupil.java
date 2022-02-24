@@ -27,10 +27,10 @@ public class Pupil implements Comparable<Pupil> {
 
     @Override
     public int compareTo(Pupil value) {
-        if (this.getClassNum() == value.getClassNum()){
+        if (this.getClassNum() == value.getClassNum()) {
             return this.getName().compareTo(value.getName());
-        } else{
-        return this.getClassNum() - value.getClassNum();
+        } else {
+            return this.getClassNum() - value.getClassNum();
         }
 
     }
